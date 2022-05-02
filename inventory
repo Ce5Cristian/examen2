@@ -1,0 +1,6 @@
+[bionic]
+192.168.122.226 ansible_user=cristianchoque ansible_ssh_private_key_file=./bionic.key
+
+[bionic:vars]
+http_port=80
+https_port=443
